@@ -3,6 +3,7 @@
 Criteria::Criteria(vector <Music*> musics_)
 {
     musics = musics_;
+    filterUsedBefore = false;
 }
 
 void Criteria::printSongInfo()

@@ -74,6 +74,11 @@ void Music::showComments()
         throw runtime_error(EMPTY_ERROR);
 }
 
+int Music::getLike()
+{
+    return likes;
+}
+
 
 
 

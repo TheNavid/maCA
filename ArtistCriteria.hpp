@@ -14,7 +14,8 @@ class ArtistCriteria : public Criteria
 
     protected:
         string artistName;
-    
+        
+        void makeCriteria();
 };
 
 #endif

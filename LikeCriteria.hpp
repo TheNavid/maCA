@@ -17,6 +17,7 @@ class LikeCriteria : public Criteria
         string minLike;
         string maxLike;
     
+        void makeCriteria();
 };
 
 #endif

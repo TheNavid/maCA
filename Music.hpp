@@ -25,6 +25,7 @@ class Music
 
         string getId();
         string getArtistName();
+        int getLike();
 
     private:
         string id;

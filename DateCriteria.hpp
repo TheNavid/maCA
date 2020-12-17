@@ -17,6 +17,8 @@ class DateCriteria : public Criteria
 
         string minYear;
         string maxYear;
+
+        void makeCriteria();
     
 };
 

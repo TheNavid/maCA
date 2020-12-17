@@ -16,8 +16,12 @@ class Criteria
         
 
     protected:
-        vector <Music*> afterCriteria;
         vector <Music*> musics;
+        vector <Music*> afterCriteria;
+        vector <Music*> artistFilter;
+        vector <Music*> dateFilter;
+        vector <Music*> likeFilter;
+        bool filterUsedBefore;
 
     
 };
