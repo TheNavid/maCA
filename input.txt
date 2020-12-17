@@ -1,0 +1,55 @@
+POST signup ? email navid2401@gmail.com username navid2020 password navid1379
+POST logout
+POST signup ? email abcd@gmail.com username abcd2020 password abcd1379
+POST logout
+POST signup ? email efgh@gmail.com username efgh2020 password efgh1379
+POST logout
+POST signup ? efgh@gmail.com efgh2020 efgh1379 spekfm aekfmn
+POST login ? email navid2401@gmail.com password navid137955
+POST login ? email navid2401@gmail.com password navid1379
+POST logout
+POST logout
+GET songs
+POST login ? email navid2401@gmail.com password navid1379
+POST likes ? id 2
+POST logout
+POST login ? email navid2401@gmail.com password navid1379
+GET likes
+POST playlists ? name for_sleep privacy public
+POST playlists ? name sport privacy private
+GET playlists ? username navid2020
+POST logout
+POST login ? email abcd@gmail.com password abcd1379
+GET playlists ? username navid2020
+POST logout
+POST login ? email navid2401@gmail.com password navid1379
+POST playlists_songs ? playlist_id 1 song_id 2
+POST playlists_songs ? playlist_id 1 song_id 3
+POST playlists_songs ? playlist_id 1 song_id 4
+POST playlists_songs ? playlist_id 2 song_id 25
+POST playlists_songs ? playlist_id 2 song_id 24
+POST playlists_songs ? playlist_id 2 song_id 23
+POST playlists_songs ? playlist_id 2 song_id 22
+GET playlists_songs ? playlist_id 2
+POST logout
+POST login ? email abcd@gmail.com password abcd1379
+GET playlists_songs ? playlist_id 1
+GET playlists_songs ? playlist_id 2
+POST logout
+POST login ? email navid2401@gmail.com password navid1379
+DELETE playlists_songs ? playlist_id 1 song_id 3
+DELETE playlists_songs ? playlist_id 1 song_id 7
+DELETE playlists_songs ? playlist_id 2 song_id 23
+GET playlists_songs ? playlist_id 1
+GET playlists_songs ? playlist_id 2
+GET songs ? id 3
+GET songs ? id 22
+GET users
+POST comments ? song_id 5 time 24 comment ajab_chizi_goft
+POST comments ? song_id 5 time 31 comment fogholade_bood
+POST comments ? song_id 5 time 41 comment neeeee_barikala
+POST comments ? song_id 5 time 9 comment bad_nabood
+GET comments ? song_id 5
+GET comments ? song_id 7
+POST logout
+GET comments ? song_id 5
